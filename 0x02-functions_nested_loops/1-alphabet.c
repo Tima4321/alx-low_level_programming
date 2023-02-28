@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * Write a function that prints the alphabet, in lowercase, followed by a new line
- * return 0
+ *nt_alphabet(void)
  */
-void print_alphabet(void)
+int main(void)
 {
 	char letter;
 
