@@ -3,16 +3,13 @@
  * Write a function that prints the alphabet, in lowercase, followed by a new line
  *nt_alphabet(void)
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+		_putchar(letter);
 
-	putchar('\n');
+	_putchar('\n');
 }
-
-
-
-
